@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #5b6770;
+}
+h1{
+    font-family: 'Handjet', cursive;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 50px;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.img{
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.score{
+    position: absolute;
+    top: 30%;
+    right: 45%;
+    font-size: 96px;
+    color: aliceblue;
+    z-index: 1;
+}
+.weapons-header{
+    text-align: center;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 30px;
+    background-color: #dbd197;
+    margin: 20px auto;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+}
+.card-btn{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: #ffff00;
+    border: none;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+.card-btn p{
+    font-family: 'Handjet', cursive;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 24px;
+}
+.card-btn:hover{
+    transition: all 200ms ease;
+    cursor: pointer;
+    opacity: .8;
+    background-color: #5b6770;
+    box-shadow: 0 0 10px 0 #ffff00 inset, 0 0 10px 4px #ffff00;
+}
+.card-btn p:hover{
+    color: #fff;
+    transition: all 200ms ease;
+}
+.grayscale{
+    filter: grayscale(100%);
+  }

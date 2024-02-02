@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Shantell+Sans:ital@1&display=swap" rel="stylesheet">
+    <title>Clicker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="points">
+            <h1 class="points-header">Points: <h1 id="points">0</h1></h1>
+        </div>
+        <div class="img">
+            <h1 id="score" class="score">0</h1>
+           <img class="game-img" id="game-img" src="img/cookie.png" alt="cookie">
+        </div>
+        <div class="weapons">
+            <h1 class="weapons-header">Weapons: </h1>
+            <div class="card" id="card-bat">
+                <img class="card-img" src="img/bat.png" alt="bat">
+                <button class="card-btn" id="buy-bat"><p>100p (+3)</p></button>
+            </div>
+            <div class="card" id="card-axe">
+                <img class="card-img" src="img/axe.png" alt="axe">
+                <button class="card-btn" id="buy-axe"><p>500p (+5)</p></button>
+            </div>
+            <div class="card" id="card-mace">
+                <img class="card-img" src="img/mace.png" alt="mace">
+                <button class="card-btn" id="buy-mace"><p>1000p (+8)</p></button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
